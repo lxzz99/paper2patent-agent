@@ -2,6 +2,7 @@
 test/
 plan/
 reference_skills/
+output/
 user.md
 Agent.md
 .gitignore
@@ -14,6 +15,10 @@ Agent.md
 *.zip
 *.pyc
 __pycache__/
+
+# Secrets: never commit API keys
+.env
+
 
 # OS files
 .DS_Store
